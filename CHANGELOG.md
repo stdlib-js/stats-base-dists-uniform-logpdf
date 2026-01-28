@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-07)
+## Unreleased (2026-01-28)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6926cf8`](https://github.com/stdlib-js/stdlib/commit/6926cf846717f27831738dbc96fa4bd902ef9dc5) - **bench:** refactor to use string interpolation in `stats/base/dists/uniform` [(#9928)](https://github.com/stdlib-js/stdlib/pull/9928) _(by Lokesh Ranjan)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -42,7 +43,7 @@ A total of 3 issues were closed in this release:
 -   [`eebd899`](https://github.com/stdlib-js/stdlib/commit/eebd899ffc0b1517c40f105e1a21252a8e31c48b) - **style:** add missing space [(#5287)](https://github.com/stdlib-js/stdlib/pull/5287) _(by Rishav Tarway)_
 -   [`c7bfa92`](https://github.com/stdlib-js/stdlib/commit/c7bfa923af0c5346766c90300e0d0a3c2188d438) - **docs:** fix missing ending `section` in various READMEs [(#5292)](https://github.com/stdlib-js/stdlib/pull/5292) _(by Saurabh Singh)_
 -   [`ac38037`](https://github.com/stdlib-js/stdlib/commit/ac3803778a758e68a576b497479babbfbafde973) - **feat:** add C implementation for `stats/base/dists/uniform/logpdf` [(#4141)](https://github.com/stdlib-js/stdlib/pull/4141) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`273d9f1`](https://github.com/stdlib-js/stdlib/commit/273d9f168ed5293a563e6748219f79a033e7ca8a) - **bench:** refactor random number generation in benchmarks for `stats/base/dists/uniform` [(#5176)](https://github.com/stdlib-js/stdlib/pull/5176) _(by Gaurav, Philipp Burckhardt, stdlib-bot)_
+-   [`273d9f1`](https://github.com/stdlib-js/stdlib/commit/273d9f168ed5293a563e6748219f79a033e7ca8a) - **bench:** refactor random number generation in benchmarks for `stats/base/dists/uniform` [(#5176)](https://github.com/stdlib-js/stdlib/pull/5176) _(by Gaurav Jadhav, Philipp Burckhardt, stdlib-bot)_
 
 </details>
 
@@ -54,10 +55,11 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
--   Gaurav
+-   Gaurav Jadhav
 -   Karan Anand
+-   Lokesh Ranjan
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Rishav Tarway
