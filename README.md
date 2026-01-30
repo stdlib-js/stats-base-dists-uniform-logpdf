@@ -65,13 +65,13 @@ where `a` is the minimum support and `b` is the maximum support of the distribut
 ## Usage
 
 ```javascript
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-logpdf@deno/mod.js';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-logpdf@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-logpdf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-logpdf@v0.3.0-deno/mod.js';
 ```
 
 #### logpdf( x, a, b )
@@ -147,7 +147,7 @@ y = mylogPDF( 5.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-logpdf@deno/mod.js';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-logpdf@v0.3.0-deno/mod.js';
 
 var a;
 var b;
