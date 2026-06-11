@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> [Uniform][uniform-distribution] distribution logarithm of [probability density function][pdf] (PDF).
+> [Uniform][uniform-distribution] distribution natural logarithm of [probability density function][pdf] (PDF).
 
 <section class="intro">
 
@@ -88,7 +88,7 @@ var logpdf = require( '@stdlib/stats-base-dists-uniform-logpdf' );
 
 #### logpdf( x, a, b )
 
-Evaluates the logarithm of the [probability density function][pdf] (PDF) for a [continuous uniform][uniform-distribution] distribution with parameters `a` (minimum support) and `b` (maximum support).
+Evaluates the natural logarithm of the [probability density function][pdf] (PDF) for a [continuous uniform][uniform-distribution] distribution with parameters `a` (minimum support) and `b` (maximum support).
 
 ```javascript
 var y = logpdf( 2.0, 0.0, 4.0 );
@@ -208,7 +208,7 @@ for ( i = 0; i < 25; i++ ) {
 
 #### stdlib_base_dists_uniform_logpdf( x, a, b )
 
-Evaluates the logarithm of the [probability density function][pdf] of a [uniform][uniform-distribution] distribution with parameters `a` (minimum support) and `b` (maximum support).
+Evaluates the natural logarithm of the [probability density function][pdf] of a [uniform][uniform-distribution] distribution with parameters `a` (minimum support) and `b` (maximum support).
 
 ```c
 double out = stdlib_base_dists_uniform_logpdf( 2.0, 0.0, 4.0 );
